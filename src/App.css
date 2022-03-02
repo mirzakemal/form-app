@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.sub-title-section{
+  margin-left: 20px;
+  margin-top: 18px;
+  Justify-Content: left;
+  display: flex;
+  font-family: 'Raleway-BoldItalic';
+}
+
+.title-section{
+  margin-top: 12px;
+  Justify-Content: center;
+  background-color: orange;
+  align-items: center;
+  display: flex;
+  height: 43px;
+  font-family: 'Raleway-Black';
+}
+
+.contact-content{
+  color: #000;
+  Justify-Content: left;
+  align-items: center;
+  font-size: 15px;
+  display: flex;
+  font: 'Raleway-Black';
+}
+
+
+.language-section{
+  color: #000;
+  Justify-Content: center;
+  width: 10%;
+  align-items: center;
+  font-size: 15px;
+  display: flex;
+  font: 'Raleway-Black';
+}
+.setting-icon{
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 3px;
+}
+.language-select{
+  margin-top: 3px;
+  Justify-Content: center;
+  align-items: center;
+  font-size: 15px;
+  display: flex;
+}
+
+.image-content{
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo-header{
+  padding-left: 117px;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+}
+
+.dual-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.child-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+}
+
+.required:after {
+  content:" *";
+  color: red;
+}
+.required{
+  font-family: 'Raleway-BoldItalic';
+  display: flex ;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+
+@font-face {
+  font-family: 'Raleway-Black';
+  src: local('Raleway-Black'), url(./fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+  font-family: 'Raleway-BoldItalic';
+  src: local('Raleway-Black'), url(./fonts/Raleway-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    font-weight: 900;
+    src: local('Lato'), url(./fonts/Raleway-Medium.ttf);
+}
